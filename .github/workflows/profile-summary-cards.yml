@@ -5,7 +5,7 @@ on:
   push:
   schedule: #execute every 24 hours
     - cron: "* */24 * * *"
-  workflow_patch:
+  workflow_dispatch:
 
 jobs:
   build:
